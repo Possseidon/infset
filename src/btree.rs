@@ -98,7 +98,7 @@ impl<T> InfBTreeSet<T> {
     /// # Examples
     ///
     /// ```
-    /// use infset::btree::{FromComplement, InfBTreeSet};
+    /// use infset::{btree::InfBTreeSet, convert::FromComplement};
     ///
     /// let union = InfBTreeSet::from([42]);
     /// assert!(union.contains(&42));
@@ -130,7 +130,7 @@ impl<T> InfBTreeSet<T> {
     /// # Examples
     ///
     /// ```
-    /// use infset::btree::{FromComplement, InfBTreeSet};
+    /// use infset::{btree::InfBTreeSet, convert::FromComplement};
     ///
     /// // Unions are disjoint if there is no overlap:
     /// let union1 = InfBTreeSet::from([1]);

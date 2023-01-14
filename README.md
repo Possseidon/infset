@@ -22,7 +22,7 @@ If "set theory" scares you, you can think of it as a combination of both a white
 
 All `Inf*Set` types basically boil down to this:
 
-```rust
+```rust ignore
 enum InfSet<T> {
     Union(Set<T>),
     Complement(Set<T>),

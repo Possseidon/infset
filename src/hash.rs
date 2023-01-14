@@ -1,0 +1,2 @@
+/// Unimplemented.
+pub enum InfBHashSet {}
